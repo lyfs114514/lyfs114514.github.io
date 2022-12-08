@@ -2,11 +2,12 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
     <head>
+
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
-        <title>战地1 | ‖ 柳宇の小鸡窝 ‖</title>
+        <title>战地1 | 柳宇の小PO站</title>
         <meta name="author" content="LIUYU">
-        <meta name="description" content="<p id="hitokoto">正在加载一言...</p>">
+        <meta name="description" content="<p style="text-align:center"><span id="hitokoto_text"></span>--<span id="hitokoto_who"></span><span id="hitokoto_from"></span></p>">
         <meta name="keywords" content="">
         <link rel="icon" href="https://i.postimg.cc/tJ4WsBTf/Snipaste-2022-11-30-20-28-35.png">
         <script src="https://cdn.staticfile.org/instant.page/5.1.0/instantpage.min.js" type="module"></script>
@@ -27,12 +28,12 @@
                         <nav id="menu">
     <div class="desktop-menu">
         <a href="/">
-            <span class="title">‖ 柳宇の小鸡窝 ‖</span>
+            <span class="title">柳宇の小PO站</span>
         </a>
         
         <a href="/">
             <i class="fa-solid fa-house fa-fw"></i>
-            <span>&ensp;home</span>
+            <span>&ensp;���۩`��ک`����</span>
         </a>
         
         <a href="/about">
@@ -60,7 +61,7 @@
         <div class="curtain" @click="menushow = !menushow" v-show="menushow"></div>
         <div class="title" @click="menushow = !menushow">
             <i class="fa-solid fa-bars fa-fw"></i>
-            <span>&emsp;‖ 柳宇の小鸡窝 ‖</span>
+            <span>&emsp;柳宇の小PO站</span>
         </div>
         <transition name="slide">
         <div class="items" v-show="menushow">
@@ -70,7 +71,7 @@
                     <div style="min-width: 20px; max-width: 50px; width: 10%">
                         <i class="fa-solid fa-house fa-fw"></i>
                     </div>
-                    <div style="min-width: 100px; max-width: 150%; width: 20%">home</div>
+                    <div style="min-width: 100px; max-width: 150%; width: 20%">���۩`��ک`����</div>
                 </div>
             </a>
             
@@ -141,7 +142,7 @@
                         <footer id="footer">
     <div class="footer-wrap">
         <div>
-            © 20xx - 2022 ‖ 柳宇の小鸡窝 ‖
+            © 20xx - 2022 柳宇の小PO站
             <span class="footer-icon">
                 <i class="fa-solid fa-font-awesome fa-fw"></i>
             </span>
@@ -166,26 +167,8 @@
         
 
 
-<!-- 一言API -->
-<!-- 现代写法，推荐 -->
-<!-- 兼容低版本浏览器 (包括 IE)，可移除 -->
-<script src="https://cdn.jsdelivr.net/npm/bluebird@3/js/browser/bluebird.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/whatwg-fetch@2.0.3/fetch.min.js"></script>
-<!--End-->
-<script>
-  fetch('https://v1.hitokoto.cn')
-    .then(function (res){
-      return res.json();
-    })
-    .then(function (data) {
-      var hitokoto = document.getElementById('hitokoto');
-      hitokoto.innerText = data.hitokoto + '——【' + data.from + '】';
-    })
-    .catch(function (err) {
-      console.error(err);
-    })
-</script>
-    </body>
+
+    <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"scale":1,"jsonPath":"/live2dw/assets/mai.model.json"},"display":{"width":300,"height":300,"position":"left","hOffset":0,"vOffset":-10},"mobile":{"show":false,"scale":0.5},"react":{"opacity":null},"log":false});</script></body>
 </html>
 
 <!-- 樱花 -->
@@ -195,6 +178,15 @@
 <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas> 
 <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
 <script type="text/javascript" src="/js/firework.js"></script>
+
+<!--动态线条背景-->
+<script type="text/javascript"
+color="220,220,220" opacity='0.7' zIndex="-2" count="200" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js">
+</script>
+
+
+
+
 
 
 
