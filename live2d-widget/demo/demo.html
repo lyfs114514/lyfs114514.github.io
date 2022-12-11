@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
         <title>柳宇の小PO站</title>
         <meta name="author" content="LIUYU">
-        <meta name="description" content="<p style="text-align:center"><span id="hitokoto_text"></span>--<span id="hitokoto_who"></span><span id="hitokoto_from"></span></p>">
+        <meta name="description" content="">
         <meta name="keywords" content="">
         <link rel="icon" href="https://i.postimg.cc/tJ4WsBTf/Snipaste-2022-11-30-20-28-35.png">
         <script src="https://cdn.staticfile.org/instant.page/5.1.0/instantpage.min.js" type="module"></script>
@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="/css/fonts.min.css">
         <link rel="stylesheet" href="/css/particlex.css">
         <script src="https://cdn.staticfile.org/vue/3.2.33/vue.global.prod.min.js"></script>
+
     <meta name="generator" content="Hexo 6.3.0"></head>
     <body>
         <div id="loading" style="height:100vh;width:100vw;position:fixed;display:flex;z-index:2147483647;justify-content:space-between;background:#fff;transition:all 0.3s ease-out;-webkit-user-select:none;-moz-user-select:none;user-select:none"><div style="position:fixed;height:100vh;width:100vw;display:flex;justify-content:center;align-items:center"><div id="loadcontent" style="width:50vmin;height:50vmin;padding:50px;border-radius:50%;display:flex;justify-content:center;align-items:center;border:solid 10px #a3ddfb;text-align:center"><div><h2>LOADING...</h2><p style="word-break:keep-all">等一下，别急！别急！急了你就输了！！</p><div><img alt="loading" src="/loading.gif"></div></div></div></div></div>
@@ -33,27 +34,27 @@
         
         <a href="/">
             <i class="fa-solid fa-house fa-fw"></i>
-            <span>&ensp;���۩`��ک`����</span>
+            <span>&ensp;ホームページ</span>
         </a>
         
         <a href="/about">
             <i class="fa-solid fa-id-card fa-fw"></i>
-            <span>&ensp;about</span>
+            <span>&ensp;私のこと</span>
         </a>
         
         <a href="/archives">
             <i class="fa-solid fa-box-archive fa-fw"></i>
-            <span>&ensp;archives</span>
+            <span>&ensp;アーカイブ</span>
         </a>
         
         <a href="/categories">
             <i class="fa-solid fa-bookmark fa-fw"></i>
-            <span>&ensp;categories</span>
+            <span>&ensp;分類</span>
         </a>
         
         <a href="/tags">
             <i class="fa-solid fa-tags fa-fw"></i>
-            <span>&ensp;tags</span>
+            <span>&ensp;ラベル</span>
         </a>
         
     </div>
@@ -71,7 +72,7 @@
                     <div style="min-width: 20px; max-width: 50px; width: 10%">
                         <i class="fa-solid fa-house fa-fw"></i>
                     </div>
-                    <div style="min-width: 100px; max-width: 150%; width: 20%">���۩`��ک`����</div>
+                    <div style="min-width: 100px; max-width: 150%; width: 20%">ホームページ</div>
                 </div>
             </a>
             
@@ -80,7 +81,7 @@
                     <div style="min-width: 20px; max-width: 50px; width: 10%">
                         <i class="fa-solid fa-id-card fa-fw"></i>
                     </div>
-                    <div style="min-width: 100px; max-width: 150%; width: 20%">about</div>
+                    <div style="min-width: 100px; max-width: 150%; width: 20%">私のこと</div>
                 </div>
             </a>
             
@@ -89,7 +90,7 @@
                     <div style="min-width: 20px; max-width: 50px; width: 10%">
                         <i class="fa-solid fa-box-archive fa-fw"></i>
                     </div>
-                    <div style="min-width: 100px; max-width: 150%; width: 20%">archives</div>
+                    <div style="min-width: 100px; max-width: 150%; width: 20%">アーカイブ</div>
                 </div>
             </a>
             
@@ -98,7 +99,7 @@
                     <div style="min-width: 20px; max-width: 50px; width: 10%">
                         <i class="fa-solid fa-bookmark fa-fw"></i>
                     </div>
-                    <div style="min-width: 100px; max-width: 150%; width: 20%">categories</div>
+                    <div style="min-width: 100px; max-width: 150%; width: 20%">分類</div>
                 </div>
             </a>
             
@@ -107,7 +108,7 @@
                     <div style="min-width: 20px; max-width: 50px; width: 10%">
                         <i class="fa-solid fa-tags fa-fw"></i>
                     </div>
-                    <div style="min-width: 100px; max-width: 150%; width: 20%">tags</div>
+                    <div style="min-width: 100px; max-width: 150%; width: 20%">ラベル</div>
                 </div>
             </a>
             
@@ -170,6 +171,10 @@
     </div>
     
     
+    <div id="comment">
+        <div id="giscus-container" class="giscus"></div>
+    </div>
+    
     
 </div>
                         <footer id="footer">
@@ -200,8 +205,8 @@
         
 
 
-
-    <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"scale":1,"jsonPath":"/live2dw/assets/model.model.json"},"display":{"width":100,"height":300,"position":"left","hOffset":0,"vOffset":20},"mobile":{"show":false,"scale":0.5},"react":{"opacity":null},"log":false});</script></body>
+        <script src="https://v1.hitokoto.cn/?encode=js" defer></script>
+    <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"scale":1,"jsonPath":"/live2dw/assets/mai.model.json"},"display":{"width":200,"height":300,"position":"left","hOffset":0,"vOffset":20},"mobile":{"show":false,"scale":0.5},"react":{"opacity":null},"log":false});</script></body>
 </html>
 
 <!-- 樱花 -->
@@ -212,10 +217,11 @@
 <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
 <script type="text/javascript" src="/js/firework.js"></script>
 
-<!--动态线条背景-->
+<!-- 动态线条背景 -->
 <script type="text/javascript"
 color="220,220,220" opacity='0.7' zIndex="-2" count="200" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js">
 </script>
+
 
 
 
